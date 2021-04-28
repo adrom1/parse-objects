@@ -1,12 +1,22 @@
 {
-  "name": "parse-objects",
+  "name": "@adrom1/parseobjects",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "build-bundle": "vue-cli-service build --target lib --name ./src/components/index.js",
     "lint": "vue-cli-service lint"
   },
+  "files": [
+    "dist/*",
+    "src/*",
+    "public/*",
+    "*.json",
+    "*.js",
+    "plugins/*"
+  ],
+  "main" : "./dist/parseobjects.common.js",
   "dependencies": {
     "core-js": "^3.11.0",
     "vue": "^2.6.12"
