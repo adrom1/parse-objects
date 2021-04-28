@@ -1,5 +1,5 @@
 {
-  "name": "@adrom1/parseobjects",
+  "name": "parseobjects123",
   "version": "0.1.0",
   "private": false,
   "scripts": {
@@ -16,7 +16,7 @@
     "*.js",
     "plugins/*"
   ],
-  "main" : "./dist/parseobjects.common.js",
+  "main" : "./dist/parseobjects123.common.js",
   "dependencies": {
     "core-js": "^3.11.0",
     "vue": "^2.6.12"
